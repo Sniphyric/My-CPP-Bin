@@ -3,11 +3,11 @@
 int main()
 {
     std::cout << "++++++++++++++++++++++++++++++++++++++" << std::endl;
-    std::cout << "+ PASSENGER: Sniphyric               +" << std::endl;
-    std::cout << "+ DESTINY: Waterloo, Canada          +" << std::endl;
-    std::cout << "+ YEAR: 2027                         +" << std::endl;
+    std::cout << "+ PASSENGER: Name, Surname           +" << std::endl;
+    std::cout << "+ DESTINY: City, Country             +" << std::endl;
+    std::cout << "+ DATE: Month, Year                  +" << std::endl;
     std::cout << "+ ---------------------------------- +" << std::endl;
-    std::cout << "+ KEEP FOCUSING ON THE CODE!         +" << std::endl;
+    std::cout << "+     Any extra notes goes here.     +" << std::endl;
     std::cout << "++++++++++++++++++++++++++++++++++++++" << std::endl;
     return 0;
 }
