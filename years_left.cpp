@@ -9,5 +9,7 @@ int main()
     
     int yearsLeft{ 2030 - currentYear }; // this is going to subtract "2030" with what the user wrote before.
     std::cout << "There is " << yearsLeft << " years left for 2030." << '\n';
+    
+    std::cin.get();
     return 0;
 }
