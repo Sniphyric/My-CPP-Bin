@@ -6,7 +6,14 @@ int main(){
     int ageOld{};
     std::cin >> ageOld;
 
-    if(ageOld < 10){
+    if(ageOld <= 5){
+        std::cout << "Nooo.";
+        std::cin.ignore(1000, '\n');
+        std::cin.get();
+        std::cout << "You're just a babehh...";
+        std::cin.get();
+        return 0; }
+    else if(ageOld >= 6 && ageOld <= 10){
         std::cout << "You're too young to be here... Go away."; }
     else if(ageOld >= 11 && ageOld <= 16){
         std::cout << "You're just the right age... :)";
@@ -38,8 +45,13 @@ int main(){
             std::cin >> answerGuess;
                 if(answerGuess == questAnswer){
                 std::cout << "Nice... You definitely did know that unc...";
+                std::cin.ignore(1000, '\n');
+                std::cin.get();
                 return 0; }
-                    else{ std::cout << "You're not a real OG, pal... Get outta here.";
+                    else{
+                    std::cout << "You're not a real OG, pal... Get outta here.";
+                    std::cin.ignore(1000, '\n');
+                    std::cin.get();
                     return 0; } }
     else if(ageOld == 50){
         std::cout << "You're halfway to 100! Damn. That's a lot."; }
